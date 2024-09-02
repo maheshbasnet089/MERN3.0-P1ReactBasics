@@ -1,0 +1,71 @@
+/* Reset some default browser styles */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar .brand {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+.main-content {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.main-content .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
