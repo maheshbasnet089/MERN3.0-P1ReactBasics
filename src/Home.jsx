@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 import './Home.css'
+import Button from './Button'
+import Card from './Card'
 
 function Home(){
 
@@ -17,6 +19,11 @@ function Home(){
         </div>
     </nav>
 
+    <Button huhu="Home" haha={23423} />
+    <Card title="Home Page"/>
+    <Card title="Home Page"/>
+    <Card title="Home Page"/>
+    
  
     <div className="main-content">
         <div className="container">
